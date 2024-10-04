@@ -1,8 +1,16 @@
+.coder-id{
+    display: flex;
+    align-self: center;
+
+}
+
 html, body{
     margin: 0;
     padding: 0;
     height: 100%;
     background-color: rgb(241, 225, 241);
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 body{
