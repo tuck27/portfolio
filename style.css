@@ -1,7 +1,15 @@
 .coder-id{
     display: flex;
-    align-self: center;
+}
 
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(73, 0, 107);
+}
+
+img{
+    width: 70px;
+    height: 70px;
 }
 
 html, body{
@@ -19,10 +27,11 @@ body{
 
 .navbar{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 75px;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 
 li a{
